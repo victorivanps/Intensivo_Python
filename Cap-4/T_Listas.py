@@ -119,3 +119,21 @@ print(jogadores[0:3])
 print(jogadores[1:4])
 print('\n#######################################################')
 
+
+# Percorrendo os primeiros itens de uma lista - 3 primeiros itens
+jogadores = ['charles','martina','michael','florence','eli']
+
+for players in jogadores[2:]:
+  print(players.title())
+
+
+# Copiando uma lista, passando como parametro a lista com a fatia toda
+
+my_foods = ['pizza','chocolate','bala']
+comida = my_foods[:]
+
+print('This is my foods')
+print(my_foods)
+
+print('This is my friends foods')
+print(comida)
